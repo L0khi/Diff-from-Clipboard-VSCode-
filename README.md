@@ -1,4 +1,4 @@
-# Apply Diff from Clipboard
+# Diff from Clipboard
 
 A small VS Code extension that applies diffs/patches copied into your clipboard with one command or a single shortcut. It’s built to tolerate **messy, agent-produced diffs (ChatGPT-style)** — unordered hunks, fenced blocks, and small formatting issues — and gives a short visual highlight where changes were applied.
 
@@ -9,7 +9,7 @@ A small VS Code extension that applies diffs/patches copied into your clipboard 
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/<your-org>/apply-diff-from-clipboard.git
+git clone https://github.com/<your-org>/diff-from-clipboard.git
 cd apply-diff-from-clipboard
 ```
 
@@ -189,7 +189,7 @@ This project is licensed under the MIT License. See `LICENSE`.
 
 * `npm run compile` → no TypeScript errors
 * `F5` → Extension Development Host opens
-* `Apply Diff from Clipboard` appears in Command Palette
+* `Diff from Clipboard` appears in Command Palette
 * Test diff applies correctly to an open file and shows highlight
 * `LICENSE` and `CLA.md` present in repository
 
